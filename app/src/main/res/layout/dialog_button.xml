@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#DD749B"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card3"
+        android:layout_margin="10dp"
+        android:background="#DD749B"
+        card_view:cardCornerRadius="30dp"
+        card_view:cardPreventCornerOverlap = "false"
+        card_view:cardElevation="6dp">
+            <Button
+                android:id="@+id/show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A8B2E6"
+                android:text="Show"
+                android:textSize="25dp"
+                android:textColor="#FFF"
+                android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card3"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="30dp"
+        card_view:cardPreventCornerOverlap = "false"
+        card_view:cardElevation="6dp">
+
+            <Button
+                android:id="@+id/share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A8B2E6"
+                android:text="Share"
+                android:textSize="25dp"
+                android:textColor="#FFF"
+                android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card3"
+        android:layout_margin="10dp"
+        android:background="#DD749B"
+        card_view:cardCornerRadius="30dp"
+        card_view:cardPreventCornerOverlap = "false"
+        card_view:cardElevation="6dp">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A8B2E6"
+            android:text="Cancel"
+            android:textSize="25dp"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
